@@ -1,0 +1,7 @@
+{
+  "css_property_add": {
+    "prefix": "css_property_add",
+    "body": ["${1:name}:${2:val};"],
+    "description": "属性定义 eg. color:red;"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "css_animate_def": {
+    "prefix": "css_animate_def",
+    "body": [
+      "@keyframes ${1:mymove} {",
+      "  ${2:50% {background: blue bottom right/50px 50px;} }",
+      "}"
+    ],
+    "description": "动画-定义"
+  },
+  "css_animate_use": {
+    "prefix": "css_animate_use",
+    "body": [
+      "animation: mymove 5s infinite;"
+    ],
+    "description": "动画-调用"
+  }
+}

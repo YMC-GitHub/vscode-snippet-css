@@ -1,0 +1,86 @@
+{
+  "css_fun_attribute": {
+    "prefix": "css_fun_attribute",
+    "body": [
+      "attr(${1:name})"
+    ],
+    "description": "返回属性取值 CSS2 eg: attr(href)"
+  },
+  "css_fun_caculate": {
+    "prefix": "css_fun_caculate",
+    "body": [
+      "calc(${1:expression})"
+    ],
+    "description": "计算长度取值 CSS3 eg: calc(100% - 10px)"
+  },
+  "css_fun_hsl": {
+    "prefix": "css_fun_hsl",
+    "body": [
+      "hsl(hue, saturation, lightness)"
+    ],
+    "description": "返回颜色取值 CSS3 eg: hsl(120,100%,25%)"
+  },
+  "css_fun_hsla": {
+    "prefix": "css_fun_hsl",
+    "body": [
+      "hsla(hue, saturation, lightness, alpha)"
+    ],
+    "description": "返回颜色取值 CSS3 eg: hsla(120,100%,25%,0.3)"
+  },
+  "css_fun_rgb": {
+    "prefix": "css_fun_rgb",
+    "body": [
+      "rgb(red, green, blue)"
+    ],
+    "description": "返回颜色取值 CSS2 eg: rgb(192,192,192)"
+  },
+  "css_fun_rgba": {
+    "prefix": "css_fun_rgba",
+    "body": [
+      "rgba(red, green, blue, alpha)"
+    ],
+    "description": "返回颜色取值 CSS3 eg: rgba(255,0,255,0.3);"
+  },
+  "css_fun_linear_gradient": {
+    "prefix": "css_fun_linear_gradient",
+    "body": [
+      "linear-gradient(direction, color-stop1, color-stop2, ...);"
+    ],
+    "description": "返回颜色取值 CSS3 eg: linear-gradient(45deg, #2989d8 30%, #7db9e8 31%, #7db9e8 58%, #2989d8 59%);"
+  },
+  "css_fun_linear_gradient_repeat": {
+    "prefix": "css_fun_linear_gradient_repeat",
+    "body": [
+      "repeating-linear-gradient(direction, color-stop1, color-stop2, ...);"
+    ],
+    "description": "返回颜色取值 CSS3 eg: repeating-linear-gradient(45deg, #2989d8 30%, #7db9e8 31%, #7db9e8 58%, #2989d8 59%);"
+  },
+  "css_fun_radial_gradient": {
+    "prefix": "css_fun_radial_gradient",
+    "body": [
+      "radial-gradient(shape size at position, start-color, ..., last-color);"
+    ],
+    "description": "返回颜色取值 CSS3 eg:  radial-gradient(farthest-side at 60% 55%, blue, green, yellow, black);"
+  },
+  "css_fun_radial_gradient_repeat": {
+    "prefix": "css_fun_radial_gradient_repeat",
+    "body": [
+      "repeating-radial-gradient(shape size at position, start-color, ..., last-color);"
+    ],
+    "description": "返回颜色取值 CSS3 eg:  repeating-radial-gradient(farthest-side at 60% 55%, blue, green, yellow, black);"
+  },
+  "css_fun_var": {
+    "prefix": "css_fun_var",
+    "body": [
+      "var(custom-property-name, value)"
+    ],
+    "description": "获自定属性值 CSS3 eg:  var(--main-txt-color);"
+  },
+  "css_fun_cubic_bezier": {
+    "prefix": "css_fun_cubic_bezier",
+    "body": [
+      "cubic-bezier(x1,y1,x2,y2)"
+    ],
+    "description": "建贝塞尔曲线 CSS3 eg:  cubic-bezier(0.1, 0.7, 1.0, 0.1);"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "css_selector_all": {
+    "prefix": "css_selector_all",
+    "body": ["*"],
+    "description": "选择器-通配 eg. *"
+  },
+  "css_selector_tag": {
+    "prefix": "css_selector_tag",
+    "body": ["${1:tag_name}"],
+    "description": "选择器-标签 eg. div"
+  },
+  "css_selector_class": {
+    "prefix": "css_selector_class",
+    "body": [".${1:class_name}"],
+    "description": "选择器-类名 eg. .app"
+  },
+  "css_selector_property": {
+    "prefix": "css_selector_property",
+    "body": ["[${1:key}${3:=}\"${2:val}\"]"],
+    "description": "选择器-属性 eg. [title=\"color\"] ~=(has word), *=(has char) ,|=(begin word), ^=(begin char), $= (end char), "
+  },
+  "css_selector_property_char_end": {
+    "prefix": "css_selector_property_char_end",
+    "body": ["[${1:key}$=\"${2:val}\"]"],
+    "description": "选择器-属性 property end with char eg: [title$=\"color\"] "
+  },
+  "css_selector_property_char_begin": {
+    "prefix": "css_selector_property_char_begin",
+    "body": ["[${1:key}^=\"${2:val}\"]"],
+    "description": "选择器-属性 property begin with char eg: [title^=\"color\"] "
+  },
+  "css_selector_property_char_has": {
+    "prefix": "css_selector_property_char_has",
+    "body": ["[${1:key}*=\"${2:val}\"]"],
+    "description": "选择器-属性 property has char eg: [title*=\"color\"] "
+  },
+  "css_selector_property_word_begin": {
+    "prefix": "css_selector_property_word_begin",
+    "body": ["[${1:key}|=\"${2:val}\"]"],
+    "description": "选择器-属性 property begin with word eg: [title|=\"color\"] "
+  },
+  "css_selector_property_word_has": {
+    "prefix": "css_selector_property_wor_has",
+    "body": ["[${1:key}~=\"${2:val}\"]"],
+    "description": "选择器-属性 property has word eg: [title~=\"color\"] "
+  },
+
+  "css_selector_class_p": {
+    "prefix": "css_selector_class_p",
+    "body": [":${1:class_p_name}"],
+    "description": "选择器-伪类 eg. .app:hover"
+  },
+  "css_selector_id": {
+    "prefix": "css_selector_id",
+    "body": ["#${1:id_name}"],
+    "description": "选择器-编号 eg. #app"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "css_unit_rt_font": {
+    "prefix": "css_unit_rt_font",
+    "body": ["em"],
+    "description": "相对长度- 相对于当前元素的字体尺寸 eg:1.5em"
+  },
+  "css_unit_rt_letter_x": {
+    "prefix": "css_unit_rt_letter_x",
+    "body": ["ex"],
+    "description": "相对长度- 相对于英文字母小 x 的高度 eg: 1.5ex"
+  },
+  "css_unit_rt_num_zero": {
+    "prefix": "css_unit_rt_num_zero",
+    "body": ["ch"],
+    "description": "相对长度- 相对于数字 0 的宽度 eg: 1.5ch"
+  },
+  "css_unit_rt_root_em": {
+    "prefix": "css_unit_rt_root_em",
+    "body": ["rem"],
+    "description": "相对长度- rem作用于非根元素时，相对于根元素字体大小；rem作用于根元素字体大小时，相对于其出初始字体大小。 eg: 1.5rem"
+  },
+  "css_unit_rt_view_w": {
+    "prefix": "css_unit_rt_view_w",
+    "body": ["vw"],
+    "description": "相对长度- 相对于视窗宽度，1vw=视窗宽度的1%。 eg: 1vm"
+  },
+  "css_unit_rt_view_h": {
+    "prefix": "css_unit_rt_view_h",
+    "body": ["vh"],
+    "description": "相对长度- 相对于视窗高度，1vh=视窗高度的1%。 eg: 1vh"
+  },
+  "css_unit_rt_view_wh_min": {
+    "prefix": "css_unit_rt_view_wh_min",
+    "body": ["vmin"],
+    "description": "相对长度- 相对于视窗宽高，vw和vh中较小的那个。 eg: 1vmin"
+  },
+  "css_unit_rt_view_wh_max": {
+    "prefix": "css_unit_rt_view_wh_max",
+    "body": ["vmax"],
+    "description": "相对长度- 相对于视窗宽高，vw和vh中较大的那个。 eg: 1vmax"
+  }
+}

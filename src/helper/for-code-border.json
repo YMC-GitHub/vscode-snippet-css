@@ -1,0 +1,22 @@
+{
+  "css_hfc_border_style_trbl": {
+    "prefix": "css_hfc_border_style_trbl",
+    "body": ["border-style:t r b l"],
+    "description": "边框 eg. border:dotted solid double dashed;"
+  },
+  "css_hfc_border_style_trb": {
+    "prefix": "css_hfc_border_style_trb",
+    "body": ["border-style:t rl b "],
+    "description": "边框 eg. border:dotted solid dashed;"
+  },
+  "css_hfc_border_style_tr": {
+    "prefix": "css_hfc_border_style_tr",
+    "body": ["border-style:tb rl"],
+    "description": "边框 eg. border:dotted solid;"
+  },
+  "css_hfc_border_style_one": {
+    "prefix": "css_hfc_border_style_one",
+    "body": ["border-style:trbl"],
+    "description": "边框 eg. border:dotted;"
+  }
+}
