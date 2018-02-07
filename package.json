@@ -1,0 +1,81 @@
+{
+ "name": "vscode-snippet-css-yemiancheng",
+ "displayName": "css snippet by yemiancheng",
+ "description": "a basic css snippet",
+ "version": "1.0.0",
+ "categories": [
+  "Snippets"
+ ],
+ "contributes": {
+  "snippets": [
+   {
+    "language": "javascript",
+    "path": "./.vscode/css.code-snippets"
+   },
+   {
+    "language": "typescript",
+    "path": "./.vscode/css.code-snippets"
+   },
+   {
+    "language": "javascriptreact",
+    "path": "./.vscode/css.code-snippets"
+   },
+   {
+    "language": "typescriptreact",
+    "path": "./.vscode/css.code-snippets"
+   },
+   {
+    "language": "html",
+    "path": "./.vscode/css.code-snippets"
+   },
+   {
+    "language": "vue",
+    "path": "./.vscode/css.code-snippets"
+   },
+   {
+    "language": "css",
+    "path": "./.vscode/css.code-snippets"
+   },
+   {
+    "language": "less",
+    "path": "./.vscode/css.code-snippets"
+   },
+   {
+    "language": "scss",
+    "path": "./.vscode/css.code-snippets"
+   }
+  ]
+ },
+ "main": "./.vscode/css.code-snippets",
+ "repository": {
+  "type": "git",
+  "url": "git+https://github.com/ymc-github/vscode-snippet-css.git"
+ },
+ "author": "yemiancheng <ymc.github@gmail.com> (https://github.com/YMC-GitHub)",
+ "license": "MIT",
+ "bugs": {
+  "url": "https://github.com/ymc-github/vscode-snippet-css/issues"
+ },
+ "homepage": "https://github.com/ymc-github/vscode-snippet-css#readme",
+ "files": [
+  ".vscode/*",
+  "package.json",
+  "README.md"
+ ],
+ "devDependencies": {
+ },
+ "scripts": {
+ },
+ "publisher": "yemiancheng",
+ "engines": {
+  "vscode": "^1.34.0"
+  },
+  "icon": "logo/logo.jpg",
+  "keywords": [
+    "javascript",
+    "snippet",
+    "vscode",
+    "vscode snippet",
+    "yemiancheng"
+  ]
+}
