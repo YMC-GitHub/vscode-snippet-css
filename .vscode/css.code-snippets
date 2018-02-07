@@ -1,0 +1,237 @@
+{
+  "comment_line": {
+    "prefix": "comment_line",
+    "body": ["/* commment_here */"],
+    "description": "单行注释"
+  },
+  "comment_multi_line": {
+    "prefix": "comment_multi_line",
+    "body": ["/* ", " commment_here ..", " commment_here ..", "*/"],
+    "description": "多行注释"
+  },
+  "comment_multi_line_02": {
+    "prefix": "comment_multi_line_02",
+    "body": ["/* ", "* commment_here ..", "* commment_here ..", "*/"],
+    "description": "多行注释"
+  },
+  "css_selector_all": {
+    "prefix": "css_selector_all",
+    "body": ["*"],
+    "description": "选择器-通配 eg. *"
+  },
+  "css_selector_tag": {
+    "prefix": "css_selector_tag",
+    "body": ["${1:tag_name}"],
+    "description": "选择器-标签 eg. div"
+  },
+  "css_selector_class": {
+    "prefix": "css_selector_class",
+    "body": [".${1:class_name}"],
+    "description": "选择器-类名 eg. .app"
+  },
+  "css_selector_property": {
+    "prefix": "css_selector_property",
+    "body": ["[${1:key}${3:=}\"${2:val}\"]"],
+    "description": "选择器-属性 eg. [title=\"color\"] ~=(has word), *=(has char) ,|=(begin word), ^=(begin char), $= (end char), "
+  },
+  "css_selector_property_char_end": {
+    "prefix": "css_selector_property_char_end",
+    "body": ["[${1:key}$=\"${2:val}\"]"],
+    "description": "选择器-属性 property end with char eg: [title$=\"color\"] "
+  },
+  "css_selector_property_char_begin": {
+    "prefix": "css_selector_property_char_begin",
+    "body": ["[${1:key}^=\"${2:val}\"]"],
+    "description": "选择器-属性 property begin with char eg: [title^=\"color\"] "
+  },
+  "css_selector_property_char_has": {
+    "prefix": "css_selector_property_char_has",
+    "body": ["[${1:key}*=\"${2:val}\"]"],
+    "description": "选择器-属性 property has char eg: [title*=\"color\"] "
+  },
+  "css_selector_property_word_begin": {
+    "prefix": "css_selector_property_word_begin",
+    "body": ["[${1:key}|=\"${2:val}\"]"],
+    "description": "选择器-属性 property begin with word eg: [title|=\"color\"] "
+  },
+  "css_selector_property_word_has": {
+    "prefix": "css_selector_property_wor_has",
+    "body": ["[${1:key}~=\"${2:val}\"]"],
+    "description": "选择器-属性 property has word eg: [title~=\"color\"] "
+  },
+  "css_selector_class_p": {
+    "prefix": "css_selector_class_p",
+    "body": [":${1:class_p_name}"],
+    "description": "选择器-伪类 eg. .app:hover"
+  },
+  "css_selector_id": {
+    "prefix": "css_selector_id",
+    "body": ["#${1:id_name}"],
+    "description": "选择器-编号 eg. #app"
+  },
+  "css_property_add": {
+    "prefix": "css_property_add",
+    "body": ["${1:name}:${2:val};"],
+    "description": "属性定义 eg. color:red;"
+  },
+  "css_fun_attribute": {
+    "prefix": "css_fun_attribute",
+    "body": [
+      "attr(${1:name})"
+    ],
+    "description": "返回属性取值 CSS2 eg: attr(href)"
+  },
+  "css_fun_caculate": {
+    "prefix": "css_fun_caculate",
+    "body": [
+      "calc(${1:expression})"
+    ],
+    "description": "计算长度取值 CSS3 eg: calc(100% - 10px)"
+  },
+  "css_fun_hsl": {
+    "prefix": "css_fun_hsl",
+    "body": [
+      "hsl(hue, saturation, lightness)"
+    ],
+    "description": "返回颜色取值 CSS3 eg: hsl(120,100%,25%)"
+  },
+  "css_fun_hsla": {
+    "prefix": "css_fun_hsl",
+    "body": [
+      "hsla(hue, saturation, lightness, alpha)"
+    ],
+    "description": "返回颜色取值 CSS3 eg: hsla(120,100%,25%,0.3)"
+  },
+  "css_fun_rgb": {
+    "prefix": "css_fun_rgb",
+    "body": [
+      "rgb(red, green, blue)"
+    ],
+    "description": "返回颜色取值 CSS2 eg: rgb(192,192,192)"
+  },
+  "css_fun_rgba": {
+    "prefix": "css_fun_rgba",
+    "body": [
+      "rgba(red, green, blue, alpha)"
+    ],
+    "description": "返回颜色取值 CSS3 eg: rgba(255,0,255,0.3);"
+  },
+  "css_fun_linear_gradient": {
+    "prefix": "css_fun_linear_gradient",
+    "body": [
+      "linear-gradient(direction, color-stop1, color-stop2, ...);"
+    ],
+    "description": "返回颜色取值 CSS3 eg: linear-gradient(45deg, #2989d8 30%, #7db9e8 31%, #7db9e8 58%, #2989d8 59%);"
+  },
+  "css_fun_linear_gradient_repeat": {
+    "prefix": "css_fun_linear_gradient_repeat",
+    "body": [
+      "repeating-linear-gradient(direction, color-stop1, color-stop2, ...);"
+    ],
+    "description": "返回颜色取值 CSS3 eg: repeating-linear-gradient(45deg, #2989d8 30%, #7db9e8 31%, #7db9e8 58%, #2989d8 59%);"
+  },
+  "css_fun_radial_gradient": {
+    "prefix": "css_fun_radial_gradient",
+    "body": [
+      "radial-gradient(shape size at position, start-color, ..., last-color);"
+    ],
+    "description": "返回颜色取值 CSS3 eg:  radial-gradient(farthest-side at 60% 55%, blue, green, yellow, black);"
+  },
+  "css_fun_radial_gradient_repeat": {
+    "prefix": "css_fun_radial_gradient_repeat",
+    "body": [
+      "repeating-radial-gradient(shape size at position, start-color, ..., last-color);"
+    ],
+    "description": "返回颜色取值 CSS3 eg:  repeating-radial-gradient(farthest-side at 60% 55%, blue, green, yellow, black);"
+  },
+  "css_fun_var": {
+    "prefix": "css_fun_var",
+    "body": [
+      "var(custom-property-name, value)"
+    ],
+    "description": "获自定属性值 CSS3 eg:  var(--main-txt-color);"
+  },
+  "css_fun_cubic_bezier": {
+    "prefix": "css_fun_cubic_bezier",
+    "body": [
+      "cubic-bezier(x1,y1,x2,y2)"
+    ],
+    "description": "建贝塞尔曲线 CSS3 eg:  cubic-bezier(0.1, 0.7, 1.0, 0.1);"
+  },
+  "css_unit_rt_font": {
+    "prefix": "css_unit_rt_font",
+    "body": ["em"],
+    "description": "相对长度- 相对于当前元素的字体尺寸 eg:1.5em"
+  },
+  "css_unit_rt_letter_x": {
+    "prefix": "css_unit_rt_letter_x",
+    "body": ["ex"],
+    "description": "相对长度- 相对于英文字母小 x 的高度 eg: 1.5ex"
+  },
+  "css_unit_rt_num_zero": {
+    "prefix": "css_unit_rt_num_zero",
+    "body": ["ch"],
+    "description": "相对长度- 相对于数字 0 的宽度 eg: 1.5ch"
+  },
+  "css_unit_rt_root_em": {
+    "prefix": "css_unit_rt_root_em",
+    "body": ["rem"],
+    "description": "相对长度- rem作用于非根元素时，相对于根元素字体大小；rem作用于根元素字体大小时，相对于其出初始字体大小。 eg: 1.5rem"
+  },
+  "css_unit_rt_view_w": {
+    "prefix": "css_unit_rt_view_w",
+    "body": ["vw"],
+    "description": "相对长度- 相对于视窗宽度，1vw=视窗宽度的1%。 eg: 1vm"
+  },
+  "css_unit_rt_view_h": {
+    "prefix": "css_unit_rt_view_h",
+    "body": ["vh"],
+    "description": "相对长度- 相对于视窗高度，1vh=视窗高度的1%。 eg: 1vh"
+  },
+  "css_unit_rt_view_wh_min": {
+    "prefix": "css_unit_rt_view_wh_min",
+    "body": ["vmin"],
+    "description": "相对长度- 相对于视窗宽高，vw和vh中较小的那个。 eg: 1vmin"
+  },
+  "css_unit_rt_view_wh_max": {
+    "prefix": "css_unit_rt_view_wh_max",
+    "body": ["vmax"],
+    "description": "相对长度- 相对于视窗宽高，vw和vh中较大的那个。 eg: 1vmax"
+  },
+  "css_animate_def": {
+    "prefix": "css_animate_def",
+    "body": [
+      "@keyframes ${1:mymove} {",
+      "  ${2:50% {background: blue bottom right/50px 50px;} }",
+      "}"
+    ],
+    "description": "动画-定义"
+  },
+  "css_animate_use": {
+    "prefix": "css_animate_use",
+    "body": [
+      "animation: mymove 5s infinite;"
+    ],
+    "description": "动画-调用"
+  },
+  "css_hfc_border_style_trbl": {
+    "prefix": "css_hfc_border_style_trbl",
+    "body": ["border-style:t r b l"],
+    "description": "边框 eg. border:dotted solid double dashed;"
+  },
+  "css_hfc_border_style_trb": {
+    "prefix": "css_hfc_border_style_trb",
+    "body": ["border-style:t rl b "],
+    "description": "边框 eg. border:dotted solid dashed;"
+  },
+  "css_hfc_border_style_tr": {
+    "prefix": "css_hfc_border_style_tr",
+    "body": ["border-style:tb rl"],
+    "description": "边框 eg. border:dotted solid;"
+  },
+  "css_hfc_border_style_one": {
+    "prefix": "css_hfc_border_style_one",
+    "body": ["border-style:trbl"],
+    "description": "边框 eg. border:dotted;"
+  }
+}
